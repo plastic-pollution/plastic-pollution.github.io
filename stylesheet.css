@@ -1,3 +1,11 @@
 h1 {
   font-size: 100px;
   color: blue;
+}
+
+p {
+  color:green;
+  background-color: blue;
+  font-size: 50px;
+  text-align: center;
+}
