@@ -1,11 +1,24 @@
 h1 {
-  font-size: 100px;
-  color: blue;
+  font-size: 50px;
+  color: rgb(143, 214, 189);
+  text-align: center;
 }
 
 p {
-  color:green;
-  background-color: blue;
+  color: rgb(143, 214, 189);
   font-size: 50px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+iframe {
   text-align: center;
 }
