@@ -120,6 +120,30 @@ img{
 
 }
 
+img.animate1:hover {
+  filter:alpha (opacity=25);
+  opacity:0.25;
+  width:100%;
+  max-width:100%;
+  background-size:cover;
+
+
+}
+div.rotate1 {
+  background: url(ocean3.jpg);
+  width:100%;
+  max-width:100%;
+  height:600px;
+  background-size:cover;
+
+}
+
+div.rotate1:hover {
+  background: url(polluted11.jpg);
+  background-size:cover;
+  height:600px;
+}
+
 .yellowButton{
   align:center;
   height:35;
