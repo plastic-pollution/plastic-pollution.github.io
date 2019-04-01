@@ -141,7 +141,69 @@
 </div>
 </footer>
 
+<!-- zara code  -->
 
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Plastic pollution</h1>
+  <p>Check out these articles for more information.</p>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <h2><a class="one" href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis//">Plastic crisis</a></h2>
+    <p> hello </p>
+  </div>
+
+  <div class="column">
+    <h2> <a class="two" href="https://www.nationalgeographic.com/environment/plastic-facts//">Facts about plastic</a></h2>
+    <p>pic 2.</p>
+  </div>
+
+  <div class="column">
+    <h2> <a class="three" href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-health-pollution-waste-microplastics///">Plastic and health </a></h2>
+    <p>pic 3.</p>
+  </div>
+</div>
 
 
 
