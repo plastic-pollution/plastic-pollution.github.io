@@ -1,6 +1,10 @@
+
 nav {
   /* replace with bootstrap styles */
   background: red;
+}
+button{
+  align-self: center;
 }
 
 .header .header-video video {
@@ -35,6 +39,9 @@ overflow-x:hidden;
 p{
 font-family: CenturyGothic, AppleGothic, Gill Sans, Gill Sans MT, sans-serif,'GeoBrandBold';
 font-size: 22px;
+}
+.jumbotron{
+  background-color: transparent !important;
 }
 .footerP{
 position:absolute;
@@ -123,12 +130,17 @@ display:block;
 padding-bottom:2rem;
 }
 
+.button.btn-primary.btn-lg{
+  align:center;
+}
 .btn{
 background: #ffcc00;
 color:#fff;
 font-size:1.2rem;
 padding: 1rem 2rem;
 text-decoration: none;
+display: flex;
+justify-content: center;
 }
 button#yellowButton.btn.btn-primary.btn-lg{
 align:center;
