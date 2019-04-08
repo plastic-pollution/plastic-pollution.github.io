@@ -234,12 +234,13 @@ body {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev, .next
+background:#ffcc00;
   cursor: pointer;
-  position: absolute;
-  top: 50%;
+  /* position: relative;
+  top: 50%; */
   width: auto;
-  margin-top: -30px;
+  margin-top: -200px;
   padding: 16px;
   color: #888;
   font-weight: bold;
