@@ -4,61 +4,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title></title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="stylesheet1.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-
-    </style>
+    <script type="text/javascript" src='js/main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scroll-down.js"></script>
   </head>
   <body>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Logo</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="nav-item">
+
+    <a class="navbar-brand" href="logo.jpg" src="logo.jpg">OCEAN<strong>POLLUTION</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Contact us</a>
-        <a class="nav-item nav-link" href="#">Blog</a>
-        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sign up</a>
+        <a class="nav-item nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#whywecare">WHY CARE?</a>
+        <a class="nav-item nav-link" href="#blog">ONLINE MAGAZINE</a>
+        <a class="nav-item nav-link" href="#Signup">SIGNUP</a>
       </div>
     </div>
   </nav>
+  <!--Navigation End-->
+
+<!--secyion one with scroller-->
+  <section class="company-heading intro-type" id="parallax-one">
+  <div class="container">
+    <div class="Landingimage">
 
 
-  <!--  <header class="header">
-      <div class="header-video">
-        <video src="https://tympanus.net/codrops-playground/assets/images/posts/23145/bokeh2.mp4" autoplay="" loop="">
+
+
+    </div>
+    <div class="row product-title-info">
+      <div class="col-md-12">
+        <h1><strong>PLASTIC or PLANET?</strong></h1>
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
       </div>
-
-      <div class="header-text">
-        <h1>Plastic pollution</h1>
-      </div>
-    </header>-->
-    <!--Landing picture Start-->
-<div class="rotate1">
-  <div class="container-fluid">
-    <div class="jumbotron">
-  <h1 class="display-4">PLASTIC or PLANET</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
   </div>
 </div>
+  <div class="parallax" id="parallax-cta" style="background-image:url(https://www.solodev.com/assets/anchor/company-hero2.jpg);"></div>
+</section>
+<div class="main">
+  <section id="section2">
+    <div class="container jumbo">
+      <div class="jumbotron">
+        <h2>Plastics Don't Disappear</h2>
+        <p>WHY CARE?</p>
+    <h2>Causes</h2>
+
+    <p>There are two types of pollution: point source and non-point source. The main point source dischargers are factories and oil spills while non-point source pollution comes from runoff.</p>
+
+    <h2>Effects</h2>
+
+    <p>Chemicals used in industries are washed into the rivers and then carried into the oceans. Since the chemicals are not dissolved, they are ingested by small animals which are then eaten by the larger animals, affecting the entire food chain. Humans are also a part of this food chain and these toxins can lead to cancer, birth defects, and long term health problems.</p>
+
+        <p><a class="btn btn-primary btn-lg" href="#blog" role="button" style="background-color:#ffcc00;">Learn more</a></p>
+      </div>
     </div>
-      <!--Landing picture End-->
-
-
-
+  </div>
+  </section>
+</div>
 <!--Quotes Start-->
-<div class="slideshow-container">
-
+<div class="slideshow-container" id="home">
 <div class="mySlides">
   <q>Water and air, the two essential fluids on which all life depends, have become global garbage cans.</q>
   <p class="author">-Jacques Cousteau-</p>
@@ -93,39 +108,38 @@
            <td align="center"><img alt="Logo_yellow_submarine" class="pledgeLogo"<img src="https://i.ibb.co/xgYSQq0/pop-pledge-logo.png" alt="pop-pledge-logo" border="0"></td>
         </tr>
     </tbody>
-<!-- Logo Submarine End-->
+
     <h2>CHOOSE THE PLANET.<br>EVERY ACTION MATTERS.</h2>
     <p>Start today. Share your choice to reduce single-use plastic.</p>
     <!-- This dont work (link)-->
-    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Single toggle</button>
-    <button id="yellowButton"type="button" <a href="https://e.nationalgeographic.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlYQGu4sjD2zb80LDDjiY0lftwGuszglYw8wzdlY1zdBKft9qkzf4qBGFUCbzfVXtpKX%3DSRUABDYW&amp;_ei_=Eq2tf9zs59idfPO1Sc_9BbmFpTg2e5ywpTmvCBY5wxf_ApiS1fyT3AsZo-dtALImyWGOneUjM6riFaCMP3EFMaEiDGcR3VK_." class="btn btn-primary btn-lg">Large button</button></a><br>
-
+    <p class="lead">
+      <a href="https://e.nationalgeographic.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlYQGu4sjD2zb80LDDjiY0lftwGuszglYw8wzdlY1zdBKft9qkzf4qBGFUCbzfVXtpKX%3DSRUABDYW&amp;_ei_=Eq2tf9zs59idfPO1Sc_9BbmFpTg2e5ywpTmvCBY5wxf_ApiS1fyT3AsZo-dtALImyWGOneUjM6riFaCMP3EFMaEiDGcR3VK_" class="btn btn-primary btn-l"style="background-color:#ffcc00;">Learn more</a>
+    </p>
   </div>
-
 </section>
 
-
+<div class="rotate1"></div>
 <!--Image Turtle-->
-<section class="section section-a">
-  <div class="container">
+<section class="section section-a" style="color: :#ffcc00;">
+  <div class="container" id="whywecare" st>
     <h2>Plastics Don't Disappear</h2>
-    <p>Plastics are constantly downcycled or degraded to smaller plastics of a lesser quality. Micro-plastics are turning our oceans into a massive
-      trashbed of ever-expanding manmade debris that do not belong to the oceans</p>
+    <p>WHY CARE?</p>
+<h2>Causes</h2>
+
+<p>There are two types of pollution: point source and non-point source. The main point source dischargers are factories and oil spills while non-point source pollution comes from runoff.</p>
+
+<h2>Effects</h2>
+
+<p>Chemicals used in industries are washed into the rivers and then carried into the oceans. Since the chemicals are not dissolved, they are ingested by small animals which are then eaten by the larger animals, affecting the entire food chain. Humans are also a part of this food chain and these toxins can lead to cancer, birth defects, and long term health problems.</p>
   </div>
 </section>
 
-      <section class="section section-a">
-        <div class="container">
-          <h2>Harmful and Pervasive</h2>
-          <p>Microplastics in landfills can still leach harmful chemicals into groundwater. Human bodies absorb these chemicals through air, food, water
-             and our daily commercial use. The effect of plastics pollution is however deadly to wildlife</p>
-        </div>
-      </section>
-      <!-- Footer-->
+
+      <!-- Subscribtion-->
     <section>
       <div class="containerImage">
-        <div class="container">
-          <h3>Stay updated!</h3>
+        <div class="container" id="Signup">
+          <h3 style="color:white;">Stay updated!</h3>
             <div>
               <form action="/action_page.php">
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -136,53 +150,102 @@
         </div>
       </div>
     </section>
+
+    <section id="section4"  style="background: black;">
+      <div class="container jumbo" >
+        <div class="jumbotron">
+          <h2 style="color: white;">R(EEL) IN THE FACTS!</h2>
+          <p style="color: white;">Plastic is the most common pollutant in the ocean.
+          Over 1 million seabirds are killed by ocean pollution each year.
+          300,000 dolphins and porpoises die each year as a result of becoming entangled in discarded fishing nets, among other items.
+          100,000 sea mammals are killed in the ocean by pollution each year.
+          Oil is the fastest source of deterioration to the ocean, being far more harmful than trash and waste.
+          People get contaminated easily by eating contaminated seafood that can cause serious health problems, from cancer to damage to immune system.
+          There is more microplastic in the ocean than there are stars in the Milky Way.?</p>
+      </div>
+      </div>
+    </div>
+    </section>
+
+
+
+    <div class="container-fruid">s
+      <section class="section section-a">
+        <div class="row">
+  <div class="col-sm">
+        <img src="graph.png" alt=""></div>
+      <div class="col-sm">
+      <p>
+
+                                 <br>In this graph, the percentage of <br> Marine Protected Areas (MPA) has
+                        increased <br> in a little over a decade. This shows <br> that the human race is seeking change <br>
+                        and has made an effort to protect <br> marine life. Marine Protected Areas <br> are sectioned off seas, lakes, and
+                         <br> oceans to preserve natural resources in it. <br>These Marine Protected Areas are important <br> because sea creatures and sea life are undisturbed <br>in these sites.
+                                 Because of this, people <br> are able to see the effects of ocean pollution.
+                                <br>
+                                <br>
+                              </p></div>
+   </div>  </section>    </div>
   <!-- Blog-->
-  <div class="container-fluid">
+  <div class="container-fluid" id="blog"style="background: black;">
+    <h1 style="text-align:center;color:white;">
+FROM THE MAGAZINE</h1>
+
+
   <div class="row">
     <div class="col-sm">
-      <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+      <div class="card" ">
+  <img src="plasticland.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">go</a>
+    <h5 class="card-title">  ENVIRONMENT </h5>
+    <p class="card-text">
+
+We Made It. We Depend on It. We're Drowning in It.</p>
+    <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/?utm_source=ngp&utm_medium=crm-email&utm_content=plastics_20180516&utm_campaign=editorial&utm_rd=20923242255" class="btn btn-primary">READ MORE</a>
   </div>
 </div>
     </div>
     <div class="col-sm">
-      <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+      <div class="card" ">
+  <img src="baby.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go </a>
+    <h5 class="card-title">HEALTH </h5>
+    <p class="card-text">
+
+What Do Plastics Mean for Human Health?</p>
+    <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-health-pollution-waste-microplastics/?utm_source=ngp&utm_medium=crm-email&utm_content=plastics_20180516&utm_campaign=editorial&utm_rd=20923242255" class="btn btn-primary">READ MORE </a>
   </div>
 </div>
     </div>
     <div class="col-sm">
-      <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+      <div class="card" ">
+        <img src="tide.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go </a>
+    <h5 class="card-title">SOLUTIONS </h5>
+    <p class="card-text">
+      How We Can Stem the Tide
+    </p>
+    <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-solutions-waste-pollution/?utm_source=ngp&utm_medium=crm-email&utm_content=plastics_20180516&utm_campaign=editorial&utm_rd=20923242255" class="btn btn-primary">READ MORE</a>
   </div>
 </div>
     </div>
   </div>
 </div>
+  </div>
 
+<div class="jumbotron text-center" id="footer" style="margin-bottom:0; ">
+  <p>Copyright &copy; oceanpollution 2017<br>
+  Girsl Who Code</p>
+</div>
 
-    <!-- Subscribtion widget-->
-    <div class="Subscribtion">
-
-    </div>
   </main>
   </body>
 </html>
 
-<!--Javascipt for Quotes-->
+
+
 <script>
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
